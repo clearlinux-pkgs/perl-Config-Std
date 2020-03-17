@@ -4,7 +4,7 @@
 #
 Name     : perl-Config-Std
 Version  : 0.903
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/B/BR/BRICKER/Config-Std-0.903.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BR/BRICKER/Config-Std-0.903.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libc/libconfig-std-perl/libconfig-std-perl_0.903-1.debian.tar.xz
@@ -79,7 +79,7 @@ make TEST_VERBOSE=1 test
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/perl-Config-Std
 cp %{_builddir}/Config-Std-0.903/LICENSE %{buildroot}/usr/share/package-licenses/perl-Config-Std/a141ba1841c17a36680978fdefa7aba2ee0a0600
-cp %{_builddir}/Config-Std-0.903/deblicense/copyright %{buildroot}/usr/share/package-licenses/perl-Config-Std/c5f899f68b9dbf85a062f21f94e90de05ea49065
+cp %{_builddir}/debian/copyright %{buildroot}/usr/share/package-licenses/perl-Config-Std/c5f899f68b9dbf85a062f21f94e90de05ea49065
 if test -f Makefile.PL; then
 make pure_install PERL_INSTALL_ROOT=%{buildroot} INSTALLDIRS=vendor
 else
@@ -104,4 +104,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Config/Std.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Config/Std.pm
