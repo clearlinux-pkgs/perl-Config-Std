@@ -4,7 +4,7 @@
 #
 Name     : perl-Config-Std
 Version  : 0.903
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/B/BR/BRICKER/Config-Std-0.903.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BR/BRICKER/Config-Std-0.903.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libc/libconfig-std-perl/libconfig-std-perl_0.903-1.debian.tar.xz
@@ -104,4 +104,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.3/Config/Std.pm
+/usr/lib/perl5/vendor_perl/5.32.1/Config/Std.pm
