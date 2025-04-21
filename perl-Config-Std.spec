@@ -7,7 +7,7 @@
 #
 Name     : perl-Config-Std
 Version  : 0.903
-Release  : 29
+Release  : 30
 URL      : https://cpan.metacpan.org/authors/id/B/BR/BRICKER/Config-Std-0.903.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BR/BRICKER/Config-Std-0.903.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libc/libconfig-std-perl/libconfig-std-perl_0.903-1.debian.tar.xz
